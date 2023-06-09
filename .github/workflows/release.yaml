@@ -78,4 +78,4 @@ jobs:
         files: ${{ steps.package.outputs.archive }}
         prerelease: ${{ steps.release-type.outputs.value == 'prerelease' }}
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.paizi }}
