@@ -40,7 +40,7 @@ use {
   },
   std::collections::{BTreeMap, BTreeSet},
 };
-
+#[allow(unused_imports)]
 use log::{debug, error, info, warn};
 
 #[derive(Debug, PartialEq)]
